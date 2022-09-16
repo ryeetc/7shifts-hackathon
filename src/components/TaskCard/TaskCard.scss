@@ -3,20 +3,16 @@
 
 
 .card {
- &__section{
+ &__section {
   display: flex;
   flex-direction: column;
   align-items: center;
-
  }
+
+
  &__img {
   height: 14rem;
   width: 20rem;
   filter:blur(2px);
-
-  &--selected {
-    background-color: orange;
-    filter:none; 
-  }
  }
 }

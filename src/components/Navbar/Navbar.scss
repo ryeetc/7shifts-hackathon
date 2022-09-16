@@ -1,0 +1,12 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/typography' as *;
+
+
+.navigation {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+}

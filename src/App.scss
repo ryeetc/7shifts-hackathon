@@ -1,11 +1,20 @@
+@use "./styles/partials/breakpoints" as*;
+@use "./styles/partials/typography" as *;
+
 *,::before::after {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "ProximaNova";
   margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }

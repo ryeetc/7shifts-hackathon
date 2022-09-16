@@ -1,0 +1,17 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/colors' as *;
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #F8F8F8;
+  height:76px;
+  gap: 5rem;
+  padding: 0 1rem;
+
+  &__arrow{
+    margin-top: 8px;
+  }
+}

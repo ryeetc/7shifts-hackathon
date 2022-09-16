@@ -1,0 +1,23 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/colors' as *;
+
+
+.profile-button__container {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-button {
+  width: 160px;
+  height: 28px;
+  border-radius: 6px;
+  border: none;
+}
+
+.orange__button {
+  background-color: #FB7448;
+  color: white;
+}

@@ -1,0 +1,23 @@
+
+.profile-navigation {
+  &__list {
+    display: flex;
+    height: 49px;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-top: 1px solid white;
+    box-shadow:  1px 4px 4px 1px rgba(0, 0, 0, .2); 
+    background-color: white;
+  }
+
+  &__burger{
+    margin-top: 12px;
+    width: 44px;
+  height: 44px;
+  }
+
+}
+
+.profile__burger {
+  padding-left: 4px;
+}

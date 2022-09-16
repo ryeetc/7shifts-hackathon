@@ -1,4 +1,5 @@
-import Navbar from '../../components/Navbar/Navbar'
+
+import GoalNavbar from '../../components/GoalNavbar/GoalNavbar'
 import TaskCard from '../../components/TaskCard/TaskCard'
 import './Milestone.scss'
 import arrowIcon from "../../assets/icons/arrow-left.png";
@@ -16,7 +17,7 @@ function Milestone() {
       <h2 className="milestone__subheader">Improve Communication Skills</h2>
       </div>
       <TaskCard />
-      <Navbar />
+      <GoalNavbar />
     </main>
 
   )

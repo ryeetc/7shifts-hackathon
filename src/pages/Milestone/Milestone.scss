@@ -1,0 +1,28 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/typography' as *;
+
+.goal-header {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+// box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height:76px;
+  gap: 7rem;
+  padding: 0 1rem;
+
+  &__arrow {
+    margin-top: .5rem
+  }
+}
+
+
+.milestone {
+    &__subheader{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #555555;
+    }
+}

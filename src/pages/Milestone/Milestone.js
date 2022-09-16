@@ -1,5 +1,5 @@
 import GoalHeader from '../../components/GoalHeader/GoalHeader'
-import Navbar from '../../components/Navbar/Navbar'
+import GoalNavbar from '../../components/GoalNavbar/GoalNavbar'
 import TaskCard from '../../components/TaskCard/TaskCard'
 import './Milestone.scss'
 
@@ -9,7 +9,7 @@ function Milestone() {
       <GoalHeader />
       <h2 className="milestone__subheader">Improve Communication Skills</h2>
       <TaskCard />
-      <Navbar />
+      <GoalNavbar />
     </main>
 
   )

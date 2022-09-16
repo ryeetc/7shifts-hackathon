@@ -1,5 +1,5 @@
 import './App.scss';
-import {BrowserRouter, Routes, Route } from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Profile from './pages/Profile/Profile';
 import Milestone from './pages/Milestone/Milestone';
 import DesktopPage from "./pages/DesktopPage/DesktopPage.js"
@@ -9,6 +9,7 @@ function App() {
   
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Navigate to="/profile" element={<Profile />} />} />
         <Route path ="/profile"  element = {<Profile />}/>
          <Route path ="/milestone"  element = {<Milestone />}/> 
          <Route path ="/employees"  element = {<DesktopPage />}/>

@@ -3,8 +3,21 @@
 @use '../../styles/partials/typography' as *;
 
 .profile {
-  background-image: url("../../assets/images/Quest-background.png");
+  background-image: url("../../assets/images/Quest.png");
   background-size: cover;
   background-position: center;
   height: 43rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+  height: 130px;
+  width: 119px;
+  margin-bottom: 79px;
+  margin-left: 48px;
+  border-radius: 8px;
+}
+.box-4 {
+  display:flex;
 }

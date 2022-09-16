@@ -1,8 +1,15 @@
-import React from 'react'
+import Navbar from '../../components/Navbar/Navbar';
+import './Profile.scss';
+
+
 
 function Profile() {
   return (
-    <h1>Profile</h1>
+    <>
+      <main className='profile'></main>
+      <Navbar />
+     </>
+   
   )
 }
 

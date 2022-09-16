@@ -2,13 +2,14 @@ import DesktopHeader from "../../components/DesktopHeader/DesktopHeader";
 import "./DesktopPage.scss"
 import Clock from "../../icons/Icons_Clock.svg"
 import Ellipsis from "../../icons/Icons_Ellipsis.svg"
-import Completed from "../../icons/greencheck.png"
+import Completed from "../../icons/greencheck.svg"
 import CalendarGrey from "../../icons/Icons_CalendarGrey.svg"
 import Left from "../../icons/Icons_ChevronLeft.svg"
 import LeftArrow from "../../icons/Icons_ArrowLeft.svg"
 import RightArrow from "../../icons/Icons_ArrowRight.svg"
 import { useState } from "react";
 import DesktopModal from "../DesktopModal/DesktopModal";
+import ArrowFaint from "../../icons/arrow-down.svg"
 
 
 const DesktopPage = () => {
@@ -137,7 +138,7 @@ const DesktopPage = () => {
                     </div>
                     <div className="arrow">
                         <div className="arrow__item left">
-                            <img className="arrow__left" src={LeftArrow}></img>
+                            <img className="arrow__left" src={ArrowFaint}></img>
                         </div>
                         <div className="arrow__item">
                             <img className="arrow__right" src={RightArrow}></img>

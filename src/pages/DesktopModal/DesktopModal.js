@@ -2,7 +2,7 @@ import "./DesktopModal.scss"
 import X from "../../icons/Icons_Times.svg"
 import { useState } from "react"
 import { useNavigate} from "react-router-dom"
-import Check from "../../icons/greencheck.png"
+import Check from "../../icons/greencheck.svg"
 
 const DesktopModal = ({setIsOverlay, isScheduled, handleScheduleClick, handleDoneClick}) => {
 
@@ -40,10 +40,10 @@ const DesktopModal = ({setIsOverlay, isScheduled, handleScheduleClick, handleDon
                 <div className="modal__x">
                     <img onClick={handleDoneClick} className="modal__img" src={X}></img>
                 </div>
-                <div className="modal__title">
+                <div className="modal__title whitespace">
                     <h1 className="modal__header">Congratulate Bob on reaching his goal!</h1>
                 </div>
-                <div className="modal__content">
+                <div className="modal__content whitespace">
                     <p className="modal__p">It's time to schedule a check-in call with Bob to follow up on his long-term goals.</p>
                 </div>
                 <div className="modal__button">

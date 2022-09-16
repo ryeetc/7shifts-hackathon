@@ -2,11 +2,12 @@
     margin: 5rem 10rem 10rem 10rem;
     display: flex;
     flex-direction: column;
+    color:#555555;
 
     &__nav {
         display: flex;
         margin-top: 2rem;
-        border-bottom: 1px solid grey;
+        border-bottom: 1px solid #C1C1C1;
         width: 85%;
         
 
@@ -51,7 +52,7 @@
 .card__holder {
     display: flex;
     flex-direction: column;
-    border: 1px solid grey;
+    border: 1px solid #C1C1C1;
     border-radius: 4px;
 
 }
@@ -59,7 +60,7 @@
 .card {
     display: flex;
     padding: 1rem 1rem;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #C1C1C1;
 
     &__div {
         width: 25%;
@@ -94,10 +95,10 @@
 }
 
 .active {
-    background-color: #f0f3fb;
-    color: #32295c;
+    background-color: #F0F3FB;
+    color: #6179C6;
     border-radius: 4px 4px 0px 0px;
-    border-bottom: 2px solid #32295c;
+    border-bottom: 2px solid #6179C6;
     &:hover{
         background-color: #f0f3fb;
         color: #32295c;
@@ -110,10 +111,11 @@
     display: flex;
     margin-top: 1rem;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid #C1C1C1;
     border-radius: 4px;
     width: min-content;
     cursor: pointer;
+    background-color: #f8f8f8;
    
     
     &__item {
@@ -126,7 +128,7 @@
 }
 
 .left {
-    border-right: 1px solid grey;
+    border-right: 1px solid #C1C1C1;
 }
 
 .overlay {

@@ -43,7 +43,7 @@ const DesktopPage = () => {
             <div key={key}>
                 <DesktopHeader />
                 <DesktopModal setIsOverlay={setIsOverlay} handleScheduleClick={handleScheduleClick} handleDoneClick={handleDoneClick} isScheduled={isScheduled}/>
-                <div className="overlay"></div>
+                <div className="overlay-ryan"></div>
                 <main className="main">
                     <div className="back">
                         <img className="back__img" src={Left}></img>

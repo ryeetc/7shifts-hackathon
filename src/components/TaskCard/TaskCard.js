@@ -14,34 +14,33 @@ function TaskCard() {
   const [checkmark, setCheckmark] = useState(false);
 
   const toggleModal = () => {
-    setTimeout(()=>{setModal(true)}, 500);
+    setTimeout(()=>{setModal(true)}, 1100);
     setBlurr(true);
     setCheckmark(true);
   };
 
-  const blurred = document.getElementsByClassName("card")
 
 
   if(modal) {
     return (
-      <div className='card__section'>
+      <div className='task-card__section'>
         <Modal modal={modal} setModal={setModal}/>
-         <div className='card'><img onClick={toggleModal} className = {blurr ? "card__img" : ""}src={successImage} alt="communication skills" /></div> 
+         <div className='task-card'><img onClick={toggleModal} className = {blurr ? "task-card__img" : ""}src={successImage} alt="communication skills" /></div> 
          {checkmark ? <div className='abso'><img src={checkMark} alt="check" /></div> : null}
-        <div className='card'><img  src={blurredOne} alt="blurred" /></div>
-        <div className='card'><img src={blurredTwo} alt="blurred2" /></div>
+        <div className='task-card'><img  src={blurredOne} alt="blurred" /></div>
+        <div className='task-card'><img src={blurredTwo} alt="blurred2" /></div>
       </div>
     )
   }
 
 
   return (
-    <div className='card__section'>
+    <div className='task-card__section'>
       
-       <div className='card'><img onClick={toggleModal} className = {blurr ? "card__img" : ""}src={successImage} alt="communication skills" /></div> 
+       <div className='task-card'><img onClick={toggleModal} className = {blurr ? "task-card__img" : ""}src={successImage} alt="communication skills" /></div> 
        {checkmark ? <div className='abso'><img src={checkMark} alt="check" /></div> : null}
-      <div className='card'><img  src={blurredOne} alt="blurred" /></div>
-      <div className='card'><img src={blurredTwo} alt="blurred2" /></div>
+      <div className='task-card'><img  src={blurredOne} alt="blurred" /></div>
+      <div className='task-card'><img src={blurredTwo} alt="blurred2" /></div>
     </div>
   )
 }

@@ -16,51 +16,51 @@ import shiftsLogo from "../../icons/7shiftsLogo.png"
 
 const DesktopHeader = () => {
     return (
-        <header className="header">
-            <div className="header__brand">
-                <img className="header__logo" src={Burger} alt="logo"></img>
-                <span className="header__title">Shifty 6's Burgers</span>
+        <header className="header-desk">
+            <div className="header-desk__brand">
+                <img className="header-desk__logo" src={Burger} alt="logo"></img>
+                <span className="header-desk__title">Shifty 6's Burgers</span>
             </div>
-            <nav className="nav">
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Speedometer} alt="speedometer"></img>
-                    <span className="nav__span">Dashboard</span>
+            <nav className="nav-desk">
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Speedometer} alt="speedometer"></img>
+                    <span className="nav-desk__span">Dashboard</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Calendar} alt="calendar"></img>
-                    <span className="nav__span">Schedules</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Calendar} alt="calendar"></img>
+                    <span className="nav-desk__span">Schedules</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Timer} alt="timer"></img>
-                    <span className="nav__span">Time Clocking</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Timer} alt="timer"></img>
+                    <span className="nav-desk__span">Time Clocking</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Clipboard} alt="clipboard"></img>
-                    <span className="nav__span">Log Book</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Clipboard} alt="clipboard"></img>
+                    <span className="nav-desk__span">Log Book</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Check} alt="check mark"></img>
-                    <span className="nav__span">Tasks</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Check} alt="check mark"></img>
+                    <span className="nav-desk__span">Tasks</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Smile} alt="smiley face"></img>
-                    <span className="nav__span">Engage</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Smile} alt="smiley face"></img>
+                    <span className="nav-desk__span">Engage</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Graph} alt="graph"></img>
-                    <span className="nav__span">Reports</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Graph} alt="graph"></img>
+                    <span className="nav-desk__span">Reports</span>
                 </div>
-                <div className="nav__comp">
-                    <img className="nav__icon" src={Chevron} alt="down arrow"></img>
-                    <span className="badge">1</span>
-                    <span className="nav__span">More</span>
+                <div className="nav-desk__comp">
+                    <img className="nav-desk__icon" src={Chevron} alt="down arrow"></img>
+                    <span className="nav-badge">1</span>
+                    <span className="nav-desk__span">More</span>
                 </div>
             </nav>
-            <div className="header__right">
-                <img className="header__img" src={Magnify} alt="magnifying glass"></img>
-                <img className="header__img" src={Megaphone} alt="megaphone"></img>
-                <img className="header__img" src={Chatbubble} alt="chat bubble"></img>
-                <img className="header__avatar" src={Avatar} alt="avatar"></img>
+            <div className="header-desk__right">
+                <img className="header-desk__img" src={Magnify} alt="magnifying glass"></img>
+                <img className="header-desk__img" src={Megaphone} alt="megaphone"></img>
+                <img className="header-desk__img" src={Chatbubble} alt="chat bubble"></img>
+                <img className="header-desk__avatar" src={Avatar} alt="avatar"></img>
                 <img className="shifts" src={shiftsLogo} alt="7shifts"></img>
             </div>
         </header>

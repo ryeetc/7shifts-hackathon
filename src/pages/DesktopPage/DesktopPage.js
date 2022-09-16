@@ -44,95 +44,95 @@ const DesktopPage = () => {
                 <DesktopHeader />
                 <DesktopModal setIsOverlay={setIsOverlay} handleScheduleClick={handleScheduleClick} handleDoneClick={handleDoneClick} isScheduled={isScheduled}/>
                 <div className="overlay-ryan"></div>
-                <main className="main">
+                <main className="main-desk">
                     <div className="back">
                         <img className="back__img" src={Left}></img>
                         <span className="back__text">Back</span>
                     </div>
-                    <h1 className="main__header">Employee Goals</h1>
-                    <nav className="main__nav">
-                        <span className="main__nav--item active">View</span>
-                        <span className="main__nav--item">Manage</span>
-                        <span className="main__nav--item">Team Goals</span>
-                        <span className="main__nav--item">Restaurant Goals</span>
-                        <span className="main__nav--item">Events</span>
-                        <span className="main__nav--item">In Progress</span>
-                        <span className="main__nav--item">Completed</span>
+                    <h1 className="main-desk__header">Employee Goals</h1>
+                    <nav className="main-desk__nav">
+                        <span className="main-desk__nav--item active">View</span>
+                        <span className="main-desk__nav--item">Manage</span>
+                        <span className="main-desk__nav--item">Team Goals</span>
+                        <span className="main-desk__nav--item">Restaurant Goals</span>
+                        <span className="main-desk__nav--item">Events</span>
+                        <span className="main-desk__nav--item">In Progress</span>
+                        <span className="main-desk__nav--item">Completed</span>
                     </nav>
-                    <div className="card__headers">
+                    <div className="card-desk__headers">
                         <div className="label__holder">
-                            <span className="card__headers--label">Employee</span>
+                            <span className="card-desk__headers--label">Employee</span>
                         </div>
                         <div className="label__holder">
-                            <span className="card__headers--label">Status</span>
+                            <span className="card-desk__headers--label">Status</span>
                         </div>
                         <div className="label__holder">
-                            <span className="card__headers--label">Goal Status</span>
+                            <span className="card-desk__headers--label">Goal Status</span>
                         </div>
                         <div className="label__holder">
-                            <span className="card__headers--label displaynone">None</span>
+                            <span className="card-desk__headers--label displaynone">None</span>
                         </div>
                     </div>
-                    <div className="card__holder">
-                        <div className="card">
-                            <div className="card__div">
-                                <span className="card__div--span">Bob Joe</span>
+                    <div className="card-desk__holder">
+                        <div className="card-desk">
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">Bob Joe</span>
                             </div>
-                            <div className="card__div">
-                                <span className="card__div--span">Complete</span>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">Complete</span>
                             </div>
-                            <div className="card__div">
-                                <span className="card__div--span">4/4</span>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">4/4</span>
                             </div>
-                            <div className="card__div image__holder">
-                                <img className="card__div--img" src={CalendarGrey}></img>
-                                <img className="card__div--img completed" onClick={handleClick} src={Completed}></img>
-                                <img className="card__div--img" src={Ellipsis}></img>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card__div">
-                                <span className="card__div--span">Hugo Habercore</span>
-                            </div>
-                            <div className="card__div">
-                                <span className="card__div--span">In Progress</span>
-                            </div>
-                            <div className="card__div">
-                                <span className="card__div--span">2/4</span>
-                            </div>
-                            <div className="card__div image__holder">
-                                <img className="card__div--img" src={Clock}></img>
-                                <img className="card__div--img" src={Ellipsis}></img>
+                            <div className="card-desk__div image__holder">
+                                <img className="card-desk__div--img" src={CalendarGrey}></img>
+                                <img className="card-desk__div--img completed" onClick={handleClick} src={Completed}></img>
+                                <img className="card-desk__div--img" src={Ellipsis}></img>
                             </div>
                         </div>
-                        <div className="card">
-                            <div className="card__div">
-                                <span className="card__div--span">Felix Fisoeder</span>
+                        <div className="card-desk">
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">Hugo Habercore</span>
                             </div>
-                            <div className="card__div">
-                                <span className="card__div--span">In Progress</span>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">In Progress</span>
                             </div>
-                            <div className="card__div">
-                                <span className="card__div--span">1/4</span>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">2/4</span>
                             </div>
-                            <div className="card__div image__holder">
-                                <img className="card__div--img" src={Clock}></img>
-                                <img className="card__div--img" src={Ellipsis}></img>
+                            <div className="card-desk__div image__holder">
+                                <img className="card-desk__div--img" src={Clock}></img>
+                                <img className="card-desk__div--img" src={Ellipsis}></img>
                             </div>
                         </div>
-                        <div className="card bottom">
-                            <div className="card__div">
-                                <span className="card__div--span">Louise Belcher</span>
+                        <div className="card-desk">
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">Felix Fisoeder</span>
                             </div>
-                            <div className="card__div">
-                                <span className="card__div--span">In Progress</span>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">In Progress</span>
                             </div>
-                            <div className="card__div">
-                                <span className="card__div--span">1/4</span>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">1/4</span>
                             </div>
-                            <div className="card__div image__holder">
-                                <img className="card__div--img" src={Clock}></img>
-                                <img className="card__div--img" src={Ellipsis}></img>
+                            <div className="card-desk__div image__holder">
+                                <img className="card-desk__div--img" src={Clock}></img>
+                                <img className="card-desk__div--img" src={Ellipsis}></img>
+                            </div>
+                        </div>
+                        <div className="card-desk bottom">
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">Louise Belcher</span>
+                            </div>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">In Progress</span>
+                            </div>
+                            <div className="card-desk__div">
+                                <span className="card-desk__div--span">1/4</span>
+                            </div>
+                            <div className="card-desk__div image__holder">
+                                <img className="card-desk__div--img" src={Clock}></img>
+                                <img className="card-desk__div--img" src={Ellipsis}></img>
                             </div>
                         </div>
                     </div>
@@ -152,95 +152,95 @@ const DesktopPage = () => {
     return (
         <>
             <DesktopHeader />
-            <main className="main">
+            <main className="main-desk">
                 <div className="back">
                     <img className="back__img" src={Left}></img>
                     <span className="back__text">Back</span>
                 </div>
-                <h1 className="main__header">Employee Goals</h1>
-                <nav className="main__nav">
-                    <span className="main__nav--item active">View</span>
-                    <span className="main__nav--item">Manage</span>
-                    <span className="main__nav--item">Team Goals</span>
-                    <span className="main__nav--item">Restaurant Goals</span>
-                    <span className="main__nav--item">Events</span>
-                    <span className="main__nav--item">In Progress</span>
-                    <span className="main__nav--item">Completed</span>
+                <h1 className="main-desk__header">Employee Goals</h1>
+                <nav className="main-desk__nav">
+                    <span className="main-desk__nav--item active">View</span>
+                    <span className="main-desk__nav--item">Manage</span>
+                    <span className="main-desk__nav--item">Team Goals</span>
+                    <span className="main-desk__nav--item">Restaurant Goals</span>
+                    <span className="main-desk__nav--item">Events</span>
+                    <span className="main-desk__nav--item">In Progress</span>
+                    <span className="main-desk__nav--item">Completed</span>
                 </nav>
-                <div className="card__headers">
+                <div className="card-desk__headers">
                     <div className="label__holder">
-                        <span className="card__headers--label">Employee</span>
+                        <span className="card-desk__headers--label">Employee</span>
                     </div>
                     <div className="label__holder">
-                        <span className="card__headers--label">Status</span>
+                        <span className="card-desk__headers--label">Status</span>
                     </div>
                     <div className="label__holder">
-                        <span className="card__headers--label">Goal Status</span>
+                        <span className="card-desk__headers--label">Goal Status</span>
                     </div>
                     <div className="label__holder">
-                        <span className="card__headers--label displaynone">None</span>
+                        <span className="card-desk__headers--label displaynone">None</span>
                     </div>
                 </div>
-                <div className="card__holder">
-                    <div className="card">
-                        <div className="card__div">
-                            <span className="card__div--span">Bob Joe</span>
+                <div className="card-desk__holder">
+                    <div className="card-desk">
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">Bob Joe</span>
                         </div>
-                        <div className="card__div">
-                            <span className="card__div--span">Complete</span>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">Complete</span>
                         </div>
-                        <div className="card__div">
-                            <span className="card__div--span">4/4</span>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">4/4</span>
                         </div>
-                        <div className="card__div image__holder">
-                            <img className="card__div--img" src={CalendarGrey}></img>
-                            <img className="card__div--img completed" onClick={handleClick} src={Completed}></img>
-                            <img className="card__div--img" src={Ellipsis}></img>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card__div">
-                            <span className="card__div--span">Hugo Habercore</span>
-                        </div>
-                        <div className="card__div">
-                            <span className="card__div--span">In Progress</span>
-                        </div>
-                        <div className="card__div">
-                            <span className="card__div--span">2/4</span>
-                        </div>
-                        <div className="card__div image__holder">
-                            <img className="card__div--img" src={Clock}></img>
-                            <img className="card__div--img" src={Ellipsis}></img>
+                        <div className="card-desk__div image__holder">
+                            <img className="card-desk__div--img" src={CalendarGrey}></img>
+                            <img className="card-desk__div--img completed" onClick={handleClick} src={Completed}></img>
+                            <img className="card-desk__div--img" src={Ellipsis}></img>
                         </div>
                     </div>
-                    <div className="card">
-                        <div className="card__div">
-                            <span className="card__div--span">Felix Fisoeder</span>
+                    <div className="card-desk">
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">Hugo Habercore</span>
                         </div>
-                        <div className="card__div">
-                            <span className="card__div--span">In Progress</span>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">In Progress</span>
                         </div>
-                        <div className="card__div">
-                            <span className="card__div--span">1/4</span>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">2/4</span>
                         </div>
-                        <div className="card__div image__holder">
-                            <img className="card__div--img" src={Clock}></img>
-                            <img className="card__div--img" src={Ellipsis}></img>
+                        <div className="card-desk__div image__holder">
+                            <img className="card-desk__div--img" src={Clock}></img>
+                            <img className="card-desk__div--img" src={Ellipsis}></img>
                         </div>
                     </div>
-                    <div className="card bottom">
-                        <div className="card__div">
-                            <span className="card__div--span">Louise Belcher</span>
+                    <div className="card-desk">
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">Felix Fisoeder</span>
                         </div>
-                        <div className="card__div">
-                            <span className="card__div--span">In Progress</span>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">In Progress</span>
                         </div>
-                        <div className="card__div">
-                            <span className="card__div--span">1/4</span>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">1/4</span>
                         </div>
-                        <div className="card__div image__holder">
-                            <img className="card__div--img" src={Clock}></img>
-                            <img className="card__div--img" src={Ellipsis}></img>
+                        <div className="card-desk__div image__holder">
+                            <img className="card-desk__div--img" src={Clock}></img>
+                            <img className="card-desk__div--img" src={Ellipsis}></img>
+                        </div>
+                    </div>
+                    <div className="card-desk bottom">
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">Louise Belcher</span>
+                        </div>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">In Progress</span>
+                        </div>
+                        <div className="card-desk__div">
+                            <span className="card-desk__div--span">1/4</span>
+                        </div>
+                        <div className="card-desk__div image__holder">
+                            <img className="card-desk__div--img" src={Clock}></img>
+                            <img className="card-desk__div--img" src={Ellipsis}></img>
                         </div>
                     </div>
                 </div>

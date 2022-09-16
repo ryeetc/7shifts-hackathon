@@ -1,4 +1,4 @@
-.main {
+.main-desk {
     margin: 5rem 10rem 10rem 10rem;
     display: flex;
     flex-direction: column;
@@ -6,15 +6,16 @@
 
     &__nav {
         display: flex;
-        margin-top: 2rem;
+        margin-top: 1rem;
         border-bottom: 1px solid #C1C1C1;
-        width: 85%;
+        width: 100%;
         
 
         &--item {
-            width: 20%;
+            width: 30%;
             text-align: center;
-            padding: 1rem 0rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
             cursor: pointer;
 
             &:hover{
@@ -41,7 +42,7 @@
     }
 }
 
-.card__headers {
+.card-desk__headers {
     display: flex;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -49,7 +50,7 @@
     margin-bottom: 0.2rem;
 }
 
-.card__holder {
+.card-desk__holder {
     display: flex;
     flex-direction: column;
     border: 1px solid #C1C1C1;
@@ -57,7 +58,7 @@
 
 }
 
-.card {
+.card-desk {
     display: flex;
     padding: 1rem 1rem;
     border-bottom: 1px solid #C1C1C1;

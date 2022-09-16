@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0rem 1rem;
+    background-color: #32295c;
+    color: white;
+
+    &__brand {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        width: 1.5rem;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+
+    &__comp {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        position: relative;
+    }
+
+    &__icon {
+        width: 1.3rem;
+    }
+}
+
+.badge {
+    text-align: center;
+    width: 0.5rem;
+    padding: 0.1rem;
+    font-size: 0.5rem;
+    background-color: #fb7448;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}

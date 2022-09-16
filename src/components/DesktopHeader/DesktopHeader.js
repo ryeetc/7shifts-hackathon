@@ -11,13 +11,14 @@ import Magnify from "../../icons/Icons_Search.svg"
 import Megaphone from "../../icons/Icons_Megaphone.svg"
 import Chatbubble from "../../icons/Icons_CommentLines.svg"
 import Avatar from "../../icons/avatar-7.jpeg"
-
+import Burger from "../../icons/burger.png"
+import shiftsLogo from "../../icons/7shiftsLogo.png"
 
 const DesktopHeader = () => {
     return (
         <header className="header">
             <div className="header__brand">
-                <img className="header__logo" src={""} alt="logo"></img>
+                <img className="header__logo" src={Burger} alt="logo"></img>
                 <span className="header__title">Shifty 6's Burgers</span>
             </div>
             <nav className="nav">
@@ -60,7 +61,7 @@ const DesktopHeader = () => {
                 <img className="header__img" src={Megaphone} alt="megaphone"></img>
                 <img className="header__img" src={Chatbubble} alt="chat bubble"></img>
                 <img className="header__avatar" src={Avatar} alt="avatar"></img>
-                <img className="7shifts" src={""} alt="7shifts"></img>
+                <img className="shifts" src={shiftsLogo} alt="7shifts"></img>
             </div>
         </header>
     )

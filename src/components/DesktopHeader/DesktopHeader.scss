@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 4rem;
     padding: 0rem 1rem;
     background-color: #32295c;
     color: white;
+    overflow: scroll;
 
     &__brand {
         display: flex;
@@ -23,17 +23,37 @@
         align-items: center;
         gap: 1rem;
     }
+
+    &__logo {
+        width: 3rem;
+        
+    }
+
+    &__img {
+       cursor: pointer;
+    }
 }
 
 .nav {
     display: flex;
     gap: 1rem;
+    height: 3rem;
+    
 
     &__comp {
         display: flex;
         align-items: center;
         gap: 0.5rem;
         position: relative;
+        cursor: pointer;
+        padding: 1rem 0.5rem;
+        
+
+        &:hover {
+            border-bottom: 3px solid white;
+            background-color: #415184;
+            
+        }
     }
 
     &__icon {
@@ -51,4 +71,7 @@
     position: absolute;
     margin-left: 20%;
     margin-bottom: 15%;
+}
+.shifts {
+    width: 4rem;
 }

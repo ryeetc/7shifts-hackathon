@@ -1,7 +1,10 @@
 @use '../../styles/partials/breakpoints' as *;
 @use '../../styles/partials/typography' as *;
 
-
+.abso {
+   position: absolute;
+   margin-top: 5rem;
+}
 .card {
  &__section {
   display: flex;
@@ -15,4 +18,5 @@
   width: 20rem;
   filter:blur(2px);
  }
+
 }

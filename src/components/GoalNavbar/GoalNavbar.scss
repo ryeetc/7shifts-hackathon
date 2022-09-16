@@ -2,7 +2,7 @@
 @use '../../styles/partials/typography' as *;
 
 
-.navigation {
+.goal-navigation {
   &__list {
     display: flex;
     height: 49px;
@@ -12,5 +12,8 @@
     box-shadow:  1px 4px 4px 1px rgba(0, 0, 0, .2); 
     background-color: white;
   }
+}
 
+.goal-burger, .goal-award{
+ margin-top: 10px;
 }

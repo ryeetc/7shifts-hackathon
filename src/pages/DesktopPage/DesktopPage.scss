@@ -1,0 +1,141 @@
+.main {
+    margin: 5rem 10rem 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    color:#555555;
+
+    &__nav {
+        display: flex;
+        margin-top: 2rem;
+        border-bottom: 1px solid #C1C1C1;
+        width: 85%;
+        
+
+        &--item {
+            width: 20%;
+            text-align: center;
+            padding: 1rem 0rem;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #f8f8f8;
+                border-radius: 4px 4px 0px 0px;
+                border-bottom: 2px solid #e0e0e0; 
+            }
+            
+        }
+    }
+}
+
+.back {
+    display: flex;
+    width: min-content;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    cursor: pointer;
+    &:hover{
+        background-color: #f8f8f8;
+        border-radius: 4px;
+       
+    }
+}
+
+.card__headers {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.card__holder {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C1C1C1;
+    border-radius: 4px;
+
+}
+
+.card {
+    display: flex;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #C1C1C1;
+
+    &__div {
+        width: 25%;
+
+        &--img {
+            cursor: pointer;
+        }
+    }
+}
+
+.label__holder {
+    width: 25%;
+   
+}
+
+.displaynone {
+    visibility: hidden;
+   
+}
+
+.bottom {
+    border: none;
+}
+.image__holder{
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+.completed {
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #F0F3FB;
+    color: #6179C6;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 2px solid #6179C6;
+    &:hover{
+        background-color: #f0f3fb;
+        color: #32295c;
+        border-radius: 4px 4px 0px 0px;
+        border-bottom: 2px solid #32295c;
+    }
+    
+}
+.arrow{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    border: 1px solid #C1C1C1;
+    border-radius: 4px;
+    width: min-content;
+    cursor: pointer;
+    background-color: #f8f8f8;
+   
+    
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        
+    }
+}
+
+.left {
+    border-right: 1px solid #C1C1C1;
+}
+
+.overlay {
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 50%;
+    z-index: 3;
+}

@@ -11,12 +11,7 @@ export default function Modal({setModal, modal}) {
 
 
   return (
-    <>
-      {/* <button onClick={toggleModal} className="btn-modal">
-        Open
-      </button> */}
-
-      
+    <>      
         <div className="modal">
           <div className="overlay"></div>
           <div className="modal-content">

@@ -19,7 +19,7 @@ function TaskCard() {
     setCheckmark(true);
   };
 
-  const blurred = document.getElementsByClassName("card")
+  // const blurred = document.getElementsByClassName("card")
 
 
   if(modal) {
